@@ -1,1 +1,1 @@
-execute if score @s sfv.py matches ..-5 in minecraft:the_nether run function savefromvoid:teleport_player
+execute if score @s sfv.py matches ..-5 in minecraft:the_nether run function savefromvoid:rescue_player {dim:"minecraft:the_nether", d: "n"}

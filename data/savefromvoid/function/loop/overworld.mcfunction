@@ -1,1 +1,1 @@
-execute if score @s sfv.py matches ..-70 in minecraft:overworld run function savefromvoid:teleport_player
+execute if score @s sfv.py matches ..-70 in minecraft:overworld run function savefromvoid:rescue_player {dim:"minecraft:overworld", d: "o"}
