@@ -11,4 +11,9 @@ scoreboard objectives add sfv.nsx dummy
 scoreboard objectives add sfv.nsy dummy
 scoreboard objectives add sfv.nsz dummy
 
+scoreboard objectives add sfv.SETTINGS dummy
+
+# 0: Simple mode | 1: XP Loss mode
+execute unless score mode sfv.SETTINGS matches -2147483648..2147483647 run scoreboard players set mode sfv.SETTINGS 0 
+
 scoreboard objectives add sfv.updatespawn trigger
