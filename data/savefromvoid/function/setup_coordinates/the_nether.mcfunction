@@ -1,3 +1,4 @@
+execute unless entity @s[nbt={Dimension:"minecraft:the_nether"}] run return fail
 execute store result score @s sfv.nsx run data get entity @s Pos[0] 1
 execute store result score @s sfv.nsy run data get entity @s Pos[1] 1
 execute store result score @s sfv.nsz run data get entity @s Pos[2] 1
