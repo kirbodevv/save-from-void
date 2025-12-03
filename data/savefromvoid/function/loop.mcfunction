@@ -6,3 +6,9 @@ execute as @a[tag=!sfv.has_the_end_coordinates] in minecraft:the_end run functio
 
 execute as @a[scores={sfv.updatespawn=1..}] run function savefromvoid:setup_coordinates/update_spawn_position
 scoreboard players set @a sfv.updatespawn 0
+
+execute as @a at @s store result score @s sfv.py run data get entity @s Pos[1] 1
+
+execute as @a[nbt={Dimension:"minecraft:overworld"}] at @s run function savefromvoid:loop/overworld
+execute as @a[nbt={Dimension:"minecraft:the_nether"}] at @s run function savefromvoid:loop/the_nether
+execute as @a[nbt={Dimension:"minecraft:the_end"}] at @s run function savefromvoid:loop/the_end

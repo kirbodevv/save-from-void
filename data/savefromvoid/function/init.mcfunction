@@ -11,6 +11,8 @@ scoreboard objectives add sfv.nsx dummy
 scoreboard objectives add sfv.nsy dummy
 scoreboard objectives add sfv.nsz dummy
 
+scoreboard objectives add sfv.py dummy
+
 scoreboard objectives add sfv.SETTINGS dummy
 
 # 0: Simple mode | 1: XP Loss mode

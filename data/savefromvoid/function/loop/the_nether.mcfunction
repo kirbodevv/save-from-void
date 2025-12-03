@@ -1,0 +1,1 @@
+execute if score @s sfv.py matches ..-5 in minecraft:the_nether run function savefromvoid:teleport_player
