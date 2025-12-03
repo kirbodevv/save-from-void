@@ -1,0 +1,1 @@
+$scoreboard players set xp_loss sfv.SETTINGS $(xp)
